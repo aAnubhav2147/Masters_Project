@@ -19,7 +19,7 @@ print(train.head())
 print(cpc_titles.head())
 
 cpc_copy = cpc_titles.copy()
-cpc_titles = cpc_titles.rename(columns = {"code" : "context"})
+cpc_titles = cpc_titles.rename(columns={"code": "context"})
 
 context = train['context'].unique()
 print(context.shape)
@@ -27,6 +27,6 @@ print(context.shape)
 target = train['target'].unique()
 print(target.shape)
 
-train2 = pd.merge(train, cpc_titles[["context","title"]], on= "context", how = "left")
+train2 = pd.merge(train, cpc_titles[["context","title"]], on="context", how="left")
 print(train2.head())
 

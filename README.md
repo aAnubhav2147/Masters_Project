@@ -6,5 +6,13 @@ In this competition, you will train your models on a novel semantic similarity d
 
 Can you build a model to match phrases in order to extract contextual information, thereby helping the patent community connect the dots between millions of patent documents?
 
-Reference -> https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/overview
+References -> 
+
+1.) https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/overview
+
+2.) https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+
+3.) https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches#require-conversation-resolution-before-merging
+
+4.) https://phoenixnap.com/kb/git-revert-last-commit
 
