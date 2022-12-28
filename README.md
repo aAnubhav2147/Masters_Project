@@ -16,3 +16,7 @@ References ->
 
 4.) https://phoenixnap.com/kb/git-revert-last-commit
 
+5.) https://stackoverflow.com/questions/2427238/what-is-the-difference-between-merge-squash-and-rebase
+
+6.) https://www.freecodecamp.org/news/git-delete-remote-branch/
+
