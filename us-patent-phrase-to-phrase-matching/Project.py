@@ -23,6 +23,7 @@ cpc_titles = cpc_titles.rename(columns={"code": "context"})
 
 context = train['context'].unique()
 print(context.shape)
+print(context)
 
 target = train['target'].unique()
 print(target.shape)
