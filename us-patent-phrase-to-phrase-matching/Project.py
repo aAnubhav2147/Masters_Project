@@ -33,7 +33,8 @@ target = train['target'].unique() # Create a numpy array to store the distinct t
 #print(target.shape)
 
 train_merged = pd.merge(train, cpc_titles[["context","title"]], on="context", how="left") # Merge the training set and cpc_titles for further analysis
-train_merged.set_index("id")
+train_merged.set_index("id") # Set the "id" column as the index
+#print(train_merged.index)
 #print(train_merged.head())
 #print(train_merged.shape)
 #print(type(train_merged))
@@ -44,7 +45,7 @@ anchor_matrix = np.asmatrix(anchor) # Convert the anchor array into a n-D matrix
 # print("matrix")
 # print(anchor_matrix)
 
-df = pd.DataFrame(anchor_matrix)
+df = pd.DataFrame(anchor_matrix) # Convert the matrix to dataframe
 print("matrix to dataframe shape")
 print(df.shape)
 print("matrix to dataframe structure")
@@ -58,6 +59,11 @@ print(df)
 train_merged = pd.concat([train_merged,df], axis=1) # Concat the new columns to the training dataset
 print(train_merged.shape)
 print(train_merged.head())
+
+
+temp = train_merged.iloc[:,2:739] # Subset the relevant columns for experimentation
+temp = temp.drop(columns=["context","score","title"])
+print(temp.head())
 
 
 
