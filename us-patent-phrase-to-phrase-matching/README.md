@@ -1,4 +1,4 @@
-This folder has the prliminary testing of all the code before they're implemented on the Kaggle environment.
+This folder has the preliminary testing of all the code before they're implemented on the Kaggle environment.
 
 
 Git/GitHub References:
