@@ -69,6 +69,19 @@ print(temp.head())
 
 
 
+# from re import search
+# import sklearn as sk
+# from sklearn.preprocessing import OneHotEncoder
+# onehotencoder = OneHotEncoder()
+
+# categorical_cols = temp[anchor]
+# transformed_data = onehotencoder.fit_transform(temp[categorical_cols])
+# #print(transformed_data.shape)
+
+# encoded_data = pd.DataFrame(transformed_data, index=temp.index)
+
+# concatenated_data = pd.concat([temp, encoded_data], axis=1)
+# print(concatenated_data.head)
 
 
 
@@ -95,7 +108,12 @@ print(temp.head())
 
 
 
-#################################### EXPERIMENTS ###################################################################
+
+
+
+
+
+########################################## EXPERIMENTS #################################################################
 
 ## To ensure PyTorch has been installed correctly
 
@@ -126,4 +144,14 @@ print(temp.head())
 #df.drop(df.index[0]) ## Unnecessary line of code
 
 #train_merged = pd.concat([train_merged,pd.DataFrame(anchor_matrix)], axis=1) # Add the matrix as new columns to the training dataset
+
+## The trials below are for one hot encoding iteratively
+# d = temp.target.apply(pd.Series).unstack()
+
+# for row_val, col_val in enumerate(temp.columns):
+#     temp.loc[temp['target']]
+
+# full = temp[target]
+# sub = list[]
+
 
