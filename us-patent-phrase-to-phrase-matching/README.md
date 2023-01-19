@@ -13,6 +13,8 @@ Git/GitHub References:
 
 5.) https://www.freecodecamp.org/news/git-delete-remote-branch/
 
+6.) https://stackoverflow.com/questions/35941566/git-says-remote-ref-does-not-exist-when-i-delete-remote-branch
+
 Python References:
 
 1.) https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.set_index.html
