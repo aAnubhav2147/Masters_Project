@@ -62,9 +62,22 @@ print(train_merged.shape)
 print(train_merged.head())
 
 
-temp = train_merged.iloc[:,2:739] # Subset the relevant columns for experimentation
-temp = temp.drop(columns=["context","score","title"])
+temp = train_merged.copy() # Make a copy of the training set
+temp = temp.drop(columns=["anchor","context","score","title"]) # Remove the irrelevant columns for experimentation
 print(temp.head())
+
+from re import search
+
+x = 1.0
+y = 0.0
+
+for r in temp[target]:
+    for c in temp[anchor]:
+        if search(target,anchor):
+                1.0
+        else:
+                0.0 
+
 
 
 
