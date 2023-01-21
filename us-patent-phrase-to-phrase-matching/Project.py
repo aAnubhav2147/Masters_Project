@@ -82,35 +82,6 @@ for r in temp[target]:
 
 
 
-# from re import search
-# import sklearn as sk
-# from sklearn.preprocessing import OneHotEncoder
-# onehotencoder = OneHotEncoder()
-
-# categorical_cols = temp[anchor]
-# transformed_data = onehotencoder.fit_transform(temp[categorical_cols])
-# #print(transformed_data.shape)
-
-# encoded_data = pd.DataFrame(transformed_data, index=temp.index)
-
-# concatenated_data = pd.concat([temp, encoded_data], axis=1)
-# print(concatenated_data.head)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -166,5 +137,20 @@ for r in temp[target]:
 
 # full = temp[target]
 # sub = list[]
+
+## 1-hot encoding attempts
+# from re import search
+# import sklearn as sk
+# from sklearn.preprocessing import OneHotEncoder
+# onehotencoder = OneHotEncoder()
+
+# categorical_cols = temp[anchor]
+# transformed_data = onehotencoder.fit_transform(temp[categorical_cols])
+# #print(transformed_data.shape)
+
+# encoded_data = pd.DataFrame(transformed_data, index=temp.index)
+
+# concatenated_data = pd.concat([temp, encoded_data], axis=1)
+# print(concatenated_data.head)
 
 
