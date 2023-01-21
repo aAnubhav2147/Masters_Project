@@ -62,12 +62,21 @@ print(train_merged.shape)
 print(train_merged.head())
 
 
-temp = train_merged.iloc[:,2:739] # Subset the relevant columns for experimentation
-temp = temp.drop(columns=["context","score","title"])
+temp = train_merged.copy() # Make a copy of the training set
+temp = temp.drop(columns=["anchor","context","score","title"]) # Remove the irrelevant columns for experimentation
 print(temp.head())
 
+from re import search
 
+x = 1.0
+y = 0.0
 
+for r in temp[target]:
+    for c in temp[anchor]:
+        if search(target,anchor):
+                1.0
+        else:
+                0.0 
 
 # from re import search
 # import sklearn as sk
@@ -82,31 +91,6 @@ print(temp.head())
 
 # concatenated_data = pd.concat([temp, encoded_data], axis=1)
 # print(concatenated_data.head)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -154,4 +138,18 @@ print(temp.head())
 # full = temp[target]
 # sub = list[]
 
+## 1-hot encoding attempts
+# from re import search
+# import sklearn as sk
+# from sklearn.preprocessing import OneHotEncoder
+# onehotencoder = OneHotEncoder()
+
+# categorical_cols = temp[anchor]
+# transformed_data = onehotencoder.fit_transform(temp[categorical_cols])
+# #print(transformed_data.shape)
+
+# encoded_data = pd.DataFrame(transformed_data, index=temp.index)
+
+# concatenated_data = pd.concat([temp, encoded_data], axis=1)
+# print(concatenated_data.head)
 
