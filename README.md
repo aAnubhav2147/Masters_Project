@@ -14,18 +14,22 @@ For more details: <https://www.kaggle.com/competitions/us-patent-phrase-to-phras
 
 References:
 
-1.) "Attention Is All You Need" paper by Vaswani et al. (2017), https://arxiv.org/abs/1706.03762
+1.) DeBERTa Research Paper: https://arxiv.org/abs/2006.03654
 
-2.) Google Patent Phrase Similarity: https://ai.googleblog.com/2022/08/announcing-patent-phrase-similarity.html?hl=ro&m=1
+2.) DeBERTa HuggingFace: https://huggingface.co/microsoft/deberta-v3-large
 
-3.) Cooperative Patent Classification: https://www.cooperativepatentclassification.org/Archive
+3.) "Attention Is All You Need" paper by Vaswani et al. (2017), https://arxiv.org/abs/1706.03762
 
-4.) The United States Patent & Trademark Office: https://www.uspto.gov/web/patents/classification/cpc/html/cpc.html
+4.) Google Patent Phrase Similarity: https://ai.googleblog.com/2022/08/announcing-patent-phrase-similarity.html?hl=ro&m=1
 
-5.) Illustrated Transformer: http://jalammar.github.io/illustrated-transformer/
+5.) Cooperative Patent Classification: https://www.cooperativepatentclassification.org/Archive
 
-6.) A Gentle Introduction to Cross-Entropy Loss for Machine Learning: https://machinelearningmastery.com/cross-entropy-for-machine-learning/
+6.) The United States Patent & Trademark Office: https://www.uspto.gov/web/patents/classification/cpc/html/cpc.html
 
-7.) A Comprehensive Guide to Loss Functions in Machine Learning: https://heartbeat.fritz.ai/a-comprehensive-guide-to-loss-functions-in-machine-learning-55b5a2b4c8dd
+7.) Illustrated Transformer: http://jalammar.github.io/illustrated-transformer/
 
-8.) "Cross-Entropy Loss for Classification" by Andrew Ng: https://www.youtube.com/watch?v=LLux1SW--oM
+8.) A Gentle Introduction to Cross-Entropy Loss for Machine Learning: https://machinelearningmastery.com/cross-entropy-for-machine-learning/
+
+9.) A Comprehensive Guide to Loss Functions in Machine Learning: https://heartbeat.fritz.ai/a-comprehensive-guide-to-loss-functions-in-machine-learning-55b5a2b4c8dd
+
+10.) "Cross-Entropy Loss for Classification" by Andrew Ng: https://www.youtube.com/watch?v=LLux1SW--oM
