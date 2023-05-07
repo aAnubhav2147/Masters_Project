@@ -1,6 +1,6 @@
-This directory tracks the progress made towards my Master's capstone; course code - DSC520. The capstone is being done under the guidance of Prof. Ming Shao.
+This directory tracks the progress made towards my Master's capstone; course code - DSC550. The capstone is being done under the guidance of Prof. Ming Shao.
 
-Final update: The usage of DeBERTa model yielded a Pearson Correlation Coefficient of ~0.84. The result can be checked here -> https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/submissions
+**Final update: The usage of DeBERTa model yielded a Pearson Correlation Coefficient of ~0.84. The result can be checked here** -> https://www.kaggle.com/competitions/us-patent-phrase-to-phrase-matching/submissions
 
 Project/Competition Synopsis:
 
